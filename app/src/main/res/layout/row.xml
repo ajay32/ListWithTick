@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/rv_list_check"
+
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/select_your_country"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+
+            <CheckBox
+                android:id="@+id/check"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="10dip"
+                android:focusable="false"
+                android:button="@drawable/selector"
+                android:focusableInTouchMode="false"></CheckBox>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@+id/label"
+            android:textSize="30sp"></TextView>
+
+
+    </RelativeLayout>
+</RelativeLayout>
